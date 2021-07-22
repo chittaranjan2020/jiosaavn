@@ -26,12 +26,8 @@
 <br>
 <br> <br> 
 
-### Note :
-*This project has been swifted to React. Old musicder will be available here 👇*<br>
-<code>https://github.com/cachecleanerjeet/musicder-native</code>
-
 ### Read This :
-*This is not the full source code which is used in <code>https://musicder.net</code>. Use <code>https://musicder.net</code> to download songs with metadata.*<br>
+*This is not the full source code which is used in <code>https://jiosaavn-ten.vercel.app/</code>. Use <code>https://jiosaavn-ten.vercel.app/</code> to download songs with metadata.*<br>
 
 ### Features :
 *1. Free.*<br>
@@ -49,13 +45,13 @@
 *2. Frontend.* <br><br>
 ## 1. Backend
 ### Brief:<br>
-*I am using my Own [JioSaavn UnOfficial API](https://github.com/cachecleanerjeet/jiosaavnapi "JioSaavnAPI") to Search Songs, Stream Songs, Download Songs & Show lyrics.*<br>
+*I am using my Own [JioSaavn UnOfficial API](https://github.com/chittaranjan2020/jiosaavnapi "JioSaavnAPI") to Search Songs, Stream Songs, Download Songs & Show lyrics.*<br>
 ### Installation:<br>
-*Go to [Here](https://github.com/cachecleanerjeet/jiosaavnapi "JioSaavnAPI") for installation instructions.*<br><br> 
+*Go to [Here](https://github.com/chittaranjan2020/jiosaavnapi "JioSaavnAPI") for installation instructions.*<br><br> 
 
 ## 2. Frontend
 ### Brief: <br>
-*Musicder is a React project. It fetch song's details from a [API](https://github.com/cachecleanerjeet/jiosaavnapi "JioSaavnAPI") and Serve it.*<br>
+*Musicder is a React project. It fetch song's details from a [API](https://github.com/chittaranjan2020/jiosaavnapi "JioSaavnAPI") and Serve it.*<br>
 ### Deploy:<br>
 
 **I will suggest to use Vercel.** <br>
