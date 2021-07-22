@@ -17,7 +17,7 @@ export default class PlayScreen extends React.Component {
                 var song = res.data;
 
                 if (song.result === "false") {
-                    document.title = `Error | Musicder`
+                    document.title = `Error | jiosaavn`
                     this.setState({ song })
                 } else {
                     document.title = `Download ${song.song} | Musicder`
@@ -63,10 +63,10 @@ export default class PlayScreen extends React.Component {
 
                     <div className="dldfooter">
                         <h1 className="playlogo">MUSICDER</h1>
-                        <a className="atextdec" href={`https://github.com/cachecleanerjeet`}>
-                            <p className="playparagone" >An Open Source Project by Tuhin</p>
+                        <a className="atextdec" href={`https://github.com/chittaranjan2020`}>
+                            <p className="playparagone" >An Open Source Project by Chittaranjan</p>
                         </a>
-                        <a href={`https://github.com/cachecleanerjeet/Musicder`}>
+                        <a href={`https://github.com/chittaranjan2020/jiosaavn`}>
                             <img alt="Github" className="center" src="../img/github-black.svg" width="30" height="30" />
                         </a>
                     </div>
