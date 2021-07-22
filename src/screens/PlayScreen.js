@@ -31,14 +31,14 @@ export default class PlayScreen extends React.Component {
     }
 
     componentDidMount() {
-        axios.get(`https://jiosaavn-api.vercel.app/song?id=${this.props.match.params.id}`)
+        axios.get(`https://jiosaavn-api-chi-two.vercel.app/song?id=${this.props.match.params.id}`)
             .then(res => {
                 var song = res.data;
                 this.setState({ song });
                 if (song.result === "false") {
                     document.title = `Error | Musicder`
                 } else {
-                    document.title = `${song.song} by ${song.singers} | Musicder`
+                    document.title = `${song.song} by ${song.singers} | jiosaavn`
                 }
             })
     }
@@ -63,7 +63,7 @@ export default class PlayScreen extends React.Component {
                     <div className="playhead">
                         <h1 className="playheadplay">Play</h1>
                         <Link to="../">
-                            <img alt="Musicder" src="../img/t-logo.svg" className="playlogobtn" width="60" height="60" />
+                            <img alt="jiosaavn" src="../img/t-logo.svg" className="playlogobtn" width="60" height="60" />
                         </Link>
                     </div>
                     <div className="playcontent"><br /><br />
@@ -82,11 +82,11 @@ export default class PlayScreen extends React.Component {
                         {this.state.lyrics}
                     </div>
                     <div className="footer">
-                        <h1 className="playlogo">MUSICDER</h1> <br />
-                        <a className="atextdec" href={`https://github.com/cachecleanerjeet`}>
-                            <p className="playparagone" >An Open Source Project by Tuhin</p>
+                        <h1 className="playlogo">JIOSAAVN</h1> <br />
+                        <a className="atextdec" href={`https://github.com/chittaranjan2020`}>
+                            <p className="playparagone" >An Open Source Project by Chittaranjan</p>
                         </a><br />
-                        <a href={`https://github.com/cachecleanerjeet/Musicder`}>
+                        <a href={`https://github.com/chittaranjan2020/jiosaavn`}>
                             <img alt="Github" className="center" src="../img/github-black.svg" width="30" height="30" /><br />
                         </a>
                     </div>
